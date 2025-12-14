@@ -1,7 +1,23 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+ # BEMM457 – Individual Analytics Project  
+**Topic:** Bicycle-hire demand patterns using London Cycle Hire (August 2023)  
+**Student:** [Your name / ID]
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+This repository contains all code and supporting files for my BEMM457 individual assignment.  
+The project analyses hourly bicycle-hire demand using a Kaggle subset of Transport for London (TfL) cycle-hire data to inform planning for Exeter City Council’s proposed shared bicycle and e-scooter scheme.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+---
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+## Repository structure
+
+```text
+.
+├── notebooks/
+│   ├── 01_cleaning_and_eda.ipynb     # Data loading, cleaning, and exploratory analysis
+│   └── 02_modelling.ipynb            # Regression models, diagnostics, and key figures
+├── data_raw/                         # Local raw data (excluded from Git, see .gitignore)
+├── data_processed/
+│   └── hourly_counts_2023_sample.csv # Aggregated hourly hire counts used for modelling
+├── figures/                          # Exported charts used in the report (PNG)
+├── requirements.txt                  # Python package dependencies
+└── .gitignore                        # Ensures large raw data are not committed
+
