@@ -1,4 +1,4 @@
- # BEMM457 Individual Project – London Cycle Hire Analytics
+# # BEMM457 Individual Project – London Cycle Hire Analytics
 
 This repository contains my individual coursework project for BEMM457.  
 The project uses a Kaggle subset of Transport for London (TfL) cycle hire data (August 2023) to analyse hourly hire demand and draw implications for a future shared bicycle and e-scooter scheme in Exeter.
