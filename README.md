@@ -18,7 +18,7 @@ The project uses a Kaggle subset of Transport for London (TfL) cycle hire data (
   - PNG images exported from the notebooks and used in the written report (e.g. daily/hourly demand plots, regression diagnostics).
 - `requirements.txt`
   - List of Python packages used in the notebooks.
-
+These notebooks reproduce the cleaning, exploratory analysis, regression models and figures referenced in the written report.
 ---
 
 ## How to run the analysis
@@ -28,7 +28,7 @@ The project uses a Kaggle subset of Transport for London (TfL) cycle hire data (
    ```bash
    pip install -r requirements.txt
 
-   These notebooks reproduce the cleaning, exploratory analysis, regression models and figures referenced in the written report.
+  
 
 
 
