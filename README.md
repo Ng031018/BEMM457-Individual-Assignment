@@ -28,4 +28,7 @@ The project uses a Kaggle subset of Transport for London (TfL) cycle hire data (
    ```bash
    pip install -r requirements.txt
 
+   These notebooks reproduce the cleaning, exploratory analysis, regression models and figures referenced in the written report.
+
+
 
