@@ -1,23 +1,31 @@
- # BEMM457 – Individual Analytics Project  
-**Topic:** Bicycle-hire demand patterns using London Cycle Hire (August 2023)  
-**Student:** [Your name / ID]
+ # BEMM457 Individual Project – London Cycle Hire Analytics
 
-This repository contains all code and supporting files for my BEMM457 individual assignment.  
-The project analyses hourly bicycle-hire demand using a Kaggle subset of Transport for London (TfL) cycle-hire data to inform planning for Exeter City Council’s proposed shared bicycle and e-scooter scheme.
+This repository contains my individual coursework project for BEMM457.  
+The project uses a Kaggle subset of Transport for London (TfL) cycle hire data (August 2023) to analyse hourly hire demand and draw implications for a future shared bicycle and e-scooter scheme in Exeter.
 
 ---
 
-## Repository structure
+## Repository contents
 
-```text
-.
-├── notebooks/
-│   ├── 01_cleaning_and_eda.ipynb     # Data loading, cleaning, and exploratory analysis
-│   └── 02_modelling.ipynb            # Regression models, diagnostics, and key figures
-├── data_raw/                         # Local raw data (excluded from Git, see .gitignore)
-├── data_processed/
-│   └── hourly_counts_2023_sample.csv # Aggregated hourly hire counts used for modelling
-├── figures/                          # Exported charts used in the report (PNG)
-├── requirements.txt                  # Python package dependencies
-└── .gitignore                        # Ensures large raw data are not committed
+- `notebooks/`
+  - `01_cleaning_and_eda.ipynb` – data loading, cleaning, descriptive statistics and exploratory plots.
+  - `02_modelling.ipynb` – regression models (hour and weekend effects), model evaluation and diagnostic plots.
+- `data_processed/`
+  - `hourly_counts_2023_sample.csv` – aggregated hourly hire counts used for the analysis.
+- `data_raw/`
+  - Local folder for the original Kaggle CSV file. This is **not tracked in Git** (see `.gitignore`) because it is large and derived from open data.
+- `figures/`
+  - PNG images exported from the notebooks and used in the written report (e.g. daily/hourly demand plots, regression diagnostics).
+- `requirements.txt`
+  - List of Python packages used in the notebooks.
+
+---
+
+## How to run the analysis
+
+1. Install the required Python packages:
+
+   ```bash
+   pip install -r requirements.txt
+
 
